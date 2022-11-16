@@ -1,0 +1,114 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.container {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: 1px dashed blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.one {
+    height: 220px;
+    width: 220px;
+    border: 30px solid #DBEAFE;
+    border-left: 30px solid 
+    #78a2d5;
+    border-bottom:30px solid transparent;
+    
+}
+
+.two {
+    height: 150px;
+    width: 150px;
+    border: 2px dashed #2563EB;
+    border-bottom: 2px dashed transparent;
+}
+
+.center {
+    position: absolute;
+    top: 50;
+    left: 50;
+    height: 40px;
+    width: 40px;
+    border: 2px dashed rgb(63, 63, 169);
+    
+}
+
+.dot-circle {
+    position: absolute;
+    top: 50;
+    left: 50;
+    height: 20px;
+    width: 20px;
+    border: 2px dashed rgb(46, 46, 243);
+    border-left: 2px dashed transparent;
+    border-top: 2px dashed transparent;
+    background-color: #93C5FD;
+}
+
+.age-text {
+    position: absolute;
+    font-size: 48px;
+    color: blue;
+    font-weight: bold;
+    bottom: 117px;
+    left: 50;
+}
+
+.zero {
+    color: #93C5FD;
+    position: absolute;
+    bottom: 166px;
+    left: 185px;
+
+}
+
+.hundered {
+    color: #93C5FD;
+    position: absolute;
+    bottom: 166px;
+    right: 178px;
+}
+
+.line-1 {
+    position: absolute;
+    width: 112px;
+    border: 1px dashed blue;
+    transform: rotate(32deg);
+    top: 210px;
+    left: 152px;
+}
+
+.line-2 {
+    position: absolute;
+    width: 112px;
+    /* height: 2px; */
+    border: 1px dashed blue;
+    /* background-color: blue; */
+    transform: rotate(43deg);
+    top: 221px;
+    left: 147px;
+}
+
+/* .cone {
+    background-color: #7ac5be;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+} */
+  
